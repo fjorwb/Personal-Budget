@@ -4,12 +4,12 @@ A web application to manage your budget.
 
 ## Table of contents
 
--Description
--Project objectives
--Technology
--Launch
--How to use
--Source
+### Description
+- Project objectives
+- Technology
+- Launch
+- How to use
+- Source
 
 ## Description
 
@@ -35,7 +35,7 @@ Project is created with:
 - CSS
 - Swagger
 
-##Launch
+## Launch
 
 Download the files and extract them in a folder. To run the server, node must be installed. Run 'npm install to install', then 'npm start'.
 
