@@ -3,8 +3,7 @@ The Personal Budget
 A web application to manage your budget.
 
 ## Table of contents
-
-### Description
+- Description
 - Project objectives
 - Technology
 - Launch
@@ -57,7 +56,7 @@ Swagger documentation and testing available at http://localhost:3000/api/docs
 
 - get all expenses: GET /exp
 - createExpense: POST /exp
-- UpdateExpense: PUT /exp/:id
+- updateExpense: PUT /exp/:id
 - deleteExpense: DELETE /exp/:id
 
 ## Balance
