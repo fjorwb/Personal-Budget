@@ -3,5 +3,5 @@ Content-Type: application/json
 
 {
   "name": "gas",
-  "amount": 20
+  "amount": 100
 }
