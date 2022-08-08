@@ -28,13 +28,12 @@ Document the project using JSDoc and Swagger.
 ## Technology
 
 Project is created with:
-ES6 Javascript
-Node.js
-Express.js
-HTML
-CSS
-Postgresql
-Swagger
+- ES6 Javascript
+- Node.js
+- Express.js
+- HTML
+- CSS
+- Swagger
 
 ##Launch
 
@@ -49,21 +48,17 @@ Swagger documentation and testing available at http://localhost:3000/api/docs
 ### Envelopes:
 
 get all envelopes: GET /env
-
 createEnvelope: POST /env
-
 UpdateEnvelope: PUT /env/:name (envelope name)
-
 deleteEnvelope: DELETE /env/:name (envelope name)
-
 Transfer an amount from a specific envelope to another one using POST /transfer?from=:id&to=:id&amount=:amount
 
 ### Expenses:
 
-get all expenses: GET /exp
-createExpense: POST /exp
-UpdateExpense: PUT /exp/:id
-deleteExpense: DELETE /exp/:id
+- get all expenses: GET /exp
+- createExpense: POST /exp
+- UpdateExpense: PUT /exp/:id
+- deleteExpense: DELETE /exp/:id
 
 ## Blance
 
