@@ -44,7 +44,7 @@ Once it is intalled run the app locally, API could be accessed at http://localho
 
 Swagger documentation and testing available at http://localhost:3000/api/docs
 
-### Envelopes:
+#### Envelopes:
 
 - get all envelopes: GET /env
 - createEnvelope: POST /env
@@ -52,14 +52,14 @@ Swagger documentation and testing available at http://localhost:3000/api/docs
 - deleteEnvelope: DELETE /env/:name (envelope name)
 - Transfer an amount from a specific envelope to another one using POST /transfer?from=:id&to=:id&amount=:amount
 
-### Expenses:
+#### Expenses:
 
 - get all expenses: GET /exp
 - createExpense: POST /exp
 - updateExpense: PUT /exp/:id
 - deleteExpense: DELETE /exp/:id
 
-## Balance
+#### Balance
 - set Budget: POST /budget
 - getBalance: GET /budget
 
