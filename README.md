@@ -17,13 +17,13 @@ This project satisfy all the requirements of the Portfolio - Personal Budget I o
 
 ## Project Objectives
 
-Build an API using Node.js and Express
-Be able to create, read, update, and delete envelopes
-Be able to create, read, update, delete and make transaction between envelopes.
-Add funtionality to CRUD expenses and produce a Balance.
-Use Git version control to keep track of your work
-Use Postman to test API endpoints
-Document the project using JSDoc and Swagger.
+- Build an API using Node.js and Express
+- Be able to create, read, update, and delete envelopes
+- Be able to create, read, update, delete and make transaction between envelopes.
+- Add funtionality to CRUD expenses and produce a Balance.
+- Use Git version control to keep track of your work
+- Use Postman to test API endpoints
+- Document the project using JSDoc and Swagger.
 
 ## Technology
 
@@ -47,11 +47,11 @@ Swagger documentation and testing available at http://localhost:3000/api/docs
 
 ### Envelopes:
 
-get all envelopes: GET /env
-createEnvelope: POST /env
-UpdateEnvelope: PUT /env/:name (envelope name)
-deleteEnvelope: DELETE /env/:name (envelope name)
-Transfer an amount from a specific envelope to another one using POST /transfer?from=:id&to=:id&amount=:amount
+- get all envelopes: GET /env
+- createEnvelope: POST /env
+- updateEnvelope: PUT /env/:name (envelope name)
+- deleteEnvelope: DELETE /env/:name (envelope name)
+- Transfer an amount from a specific envelope to another one using POST /transfer?from=:id&to=:id&amount=:amount
 
 ### Expenses:
 
@@ -60,10 +60,9 @@ Transfer an amount from a specific envelope to another one using POST /transfer?
 - UpdateExpense: PUT /exp/:id
 - deleteExpense: DELETE /exp/:id
 
-## Blance
-
-set Budget: POST /budget
-getBalance: GET /budget
+## Balance
+- set Budget: POST /budget
+- getBalance: GET /budget
 
 ## How to use
 
