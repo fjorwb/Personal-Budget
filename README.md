@@ -4,12 +4,12 @@ A web application to manage your budget.
 
 ## Table of contents
 
-Description
-Project objectives
-Technology
-Launch
-How to use
-Source
+-Description
+-Project objectives
+-Technology
+-Launch
+-How to use
+-Source
 
 ## Description
 
