@@ -1,0 +1,7 @@
+POST http://localhost:3000/env
+Content-Type: application/json
+
+{
+  "name": "health",
+  "amount" : 400
+}

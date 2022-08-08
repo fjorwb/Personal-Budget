@@ -1,0 +1,7 @@
+POST http://localhost:3000/expenses
+Content-Type: application/json
+
+{
+  "name": "gas",
+  "amount": 20
+}

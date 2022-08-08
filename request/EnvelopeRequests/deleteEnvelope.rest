@@ -1,0 +1,5 @@
+DELETE http://localhost:3000/env/grocery
+Content-Type: application/json
+
+
+
